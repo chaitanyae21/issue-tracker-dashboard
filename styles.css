@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 1rem;
+  background-color: #f9fafb;
+  color: #333;
+}
+
+.dashboard h1 {
+  margin-bottom: 1rem;
+}
+
+.project-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+.project-table th,
+.project-table td {
+  border: 1px solid #e5e7eb;
+  padding: 0.5rem 1rem;
+}
+
+.project-table tr {
+  cursor: pointer;
+}
+
+.project-table tr.active {
+  background-color: #e0f2fe;
+}
+
+.issues-list h2 {
+  margin-top: 0;
+}
+
+.issues-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.issues-list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #e5e7eb;
+}
